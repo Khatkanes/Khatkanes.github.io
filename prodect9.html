@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop-page</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#" class="logo"><img
+                src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/logo1-free-img.png"
+                alt=""></a>
+        <div>
+            <ul id="nav-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html" target="_blank">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#footer">About</a></li>
+                <li><i class="bi bi-bag-dash" id="cart-icon" data-quantity="0"></i></li>
+                <div class="cart">
+                    <h2 class="cart-title">Your Cart</h2>
+                    <!--Content-->
+                    <div class="cart-content">
+                        
+                    </div>
+                    <!-- Total-->
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">$0</div>
+                    </div>
+                    <button type="button" class="btn-buy"><a href="checkout.html" target="_blank">Pay Now</a></button>
+                    <i class="bi bi-x" id="close-cart"></i>
+                </div>
+                <i class="bi bi-list" id="bar"></i>
+            </ul>
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>ALL Products</h2>
+        <p>All Collection New Morden Disign</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/n1.jpg" alt="" class="product-img">
+                <div class="des">
+                    <p>Home/T-shirt</p>
+                    <h3 class="product-title">T-SHIRT SOFTNER</h3>
+                    <h4 class="price">$110</h4>
+                    <select>
+                        <option>Select Size</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                        <option>Small</option>
+                        <option>Large</option>
+                    </select>
+                    <h4 class="details-h4">Products Details</h4>
+                    <p class="details-p">Cartoon product is the best quarity for kid and teen you can use wear it worth and cheep Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quis animi veniam necessitatibus fuga rerum nisi suscipit officia rem dolore?.</p>
+                </div>
+                <button class="normal add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and<span> special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    <footer class="section-p1" id="footer">
+        <div class="col">
+            <img class="logo" src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/logo@2x-free-img-300x100.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+            <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privery Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>Form App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/2560px-PayPal.svg.png" style="width: 100px; height: 30px;" alt="">
+        </div>
+        <div class="line"></div>
+        <div class="copyright">
+            <p>© 2023, Mid-Term - borntodev - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
